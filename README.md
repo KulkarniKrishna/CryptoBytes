@@ -4,6 +4,6 @@ A Digital Currency based Android Application,  which displays market prices of a
 # Features
 This Application helps users get to know about various Digital coin values their rise and drop of prices very often.
 
-MarkUp : *hi
+MarkUp : * hi
 
 
