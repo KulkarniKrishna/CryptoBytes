@@ -6,10 +6,10 @@ This Application helps users get to know about various Digital coin(cryptos) val
 User can check out the latest news of Crypto from all over the world.
 
 # Api Used:
-- Coin Market Cap 
+- ## Coin Market Cap 
     - to get list of all the Cryptos ( https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest )
     - to get details of a particular crypto using its symbol ( https://pro-api.coinmarketcap.com/v1/cryptocurrency/info?symbol=btc )
-- CryptoCompare
+- ## CryptoCompare
     -to get news related to cryptos ( https://min-api.cryptocompare.com/data/news/ )
 
 # Technology Used:
