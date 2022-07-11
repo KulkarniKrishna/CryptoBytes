@@ -1,4 +1,4 @@
-# CRYPTOBYTES
+# CryptoBytes
 # Description
 A Digital Currency based Android Application,  which displays market prices of all the Crypto currencies.
 # Features
