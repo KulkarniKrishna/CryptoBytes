@@ -20,8 +20,14 @@ User can check out the latest news of Crypto from all over the world.
         - Model: This layer is responsible for the abstraction of the data sources. Model and ViewModel work together to get and save the data.
         - View: The purpose of this layer is to inform the ViewModel about the user’s action. This layer observes the ViewModel and does not contain any kind of application logic.
         - ViewModel: It exposes those data streams which are relevant to the View. Moreover, it serve as a link between the Model and the View.
-MVVM (Model View ViewModel) Architecture Pattern in Android
+     ![alt text](https://miro.medium.com/max/1400/0*Ue9tnmHvGhCJpJ4Q.png)
 
 - ### Libraries for fetching data from Apis
+    - #### Retrofit
+        - Retrofit 2 is type-safe REST client build by square for Android and Java which intends to make it simpler to expand RESTful webservices. Retrofit 2 use OkHttp as the systems administration layer and is based over it. Retrofit naturally serializes the JSON reaction utilizing a POJO (PlainOldJavaObject).
+        - need to add these lines inside dependencies{}: compile'com.google.code.gson:gson:2.6.2' , compile'com.squareup.retrofit2:retrofit:2.0.2', compile'com.squareup.retrofit2:converter-gson:2.0.2'
+    - #### Volley
+        - Volley is an HTTP library that makes networking very easy and fast, for Android apps. It was developed by Google and introduced during Google I/O 2013. It was developed because there is an absence in Android SDK, of a networking class capable of working without interfering with the user experience.
+        -  Open build.gradle(Module: app) and add the following dependency: implementation 'com.android.volley:volley:1.0.0'
 
  
